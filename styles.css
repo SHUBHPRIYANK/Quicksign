@@ -1,0 +1,44 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top, .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+
+.class1, input, select, button{
+    width: 80%;
+}
+
+.canvas{
+    border: 2px solid black;
+}
+
+.top>.class1{
+    margin: 10px;
+}
+
+.bottom>.btn{
+    margin: 10px;
+    border: 0.1px black;
+    border-radius: 0.1px;
+    padding: 10px;
+}
+
+#clr{
+    background-color: red;
+}
+
+#save{
+    background-color: rgb(46, 221, 46);
+}
+
+#retreive{
+    background-color: rgba(255, 255, 0, 0.566);
+}

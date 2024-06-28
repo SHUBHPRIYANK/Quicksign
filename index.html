@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+    <title>Quick Sign</title>
+</head>
+<body>
+    <div class = "main">
+        <div class = "top">
+            <div class="class1">
+                <p>Text Color Picker</p>
+                <input class = "colorpick" type = "color" id = "textcolorpicker">
+            </div>
+
+            <div class="class1">
+                <p>Background Color Picker</p>
+                <input class = "colorpick" type = "color" id = "backcolorpicker">
+            </div>
+
+            <div class="class1">
+                <p>Font Size</p>
+                <select id = "fontSize">
+                    <option value = "1">1 px</option>
+                    <option value = "2">2 px</option>
+                    <option value = "3">3 px</option>
+                    <option value = "4">4 px</option>
+                    <option value = "5">5 px</option>
+                    <option value = "6">6 px</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="middle">
+            <canvas height="400" width="800" class="canvas" id = "mycanvas">
+            </canvas>
+        </div>
+        
+        <div class="bottom">
+            <button type = "button" class="btn" id="clr" > Clear </button>
+            <button type = "button" class="btn" id="save" > Save & Download </button>
+            <button type = "button" class="btn" id="retreive" > Retreive Saved Image </button>
+        </div>
+    </div>
+
+    <script src="myscript.js"></script>
+    
+</body>
+</html>
